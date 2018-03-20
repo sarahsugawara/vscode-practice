@@ -1,20 +1,14 @@
-var x = 100;
+const newNumber = 100;
 console.log(x);
 
-function squareFeet(x) {
-    return x * x;
-};
+const squareFeet = (x) => x * x;
 
 console.log(squareFeet(6));
 
-function sum(x) {
-    return x + x;
-}
+const sum = (x) => x + x;
 
 console.log(sum(3));
 
-function negativeNumber(x) {
-    return x * -1;
-}
+const negativeNumber = x => x * -1;
 
 console.log(negativeNumber(6));
