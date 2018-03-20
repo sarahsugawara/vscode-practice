@@ -5,4 +5,10 @@ function squareFeet(x) {
     return x * x;
 };
 
-console.log(squareFeet);
+console.log(squareFeet(6));
+
+function sum(x) {
+    return x + x;
+}
+
+console.log(sum(3));
