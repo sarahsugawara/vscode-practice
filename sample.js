@@ -12,3 +12,9 @@ function sum(x) {
 }
 
 console.log(sum(3));
+
+function negativeNumber(x) {
+    return x * -1;
+}
+
+console.log(negativeNumber(6));
