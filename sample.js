@@ -1,11 +1,11 @@
 const newNumber = 100;
-console.log(x);
+console.log(newNumber);
 
-const squareFeet = (x) => x * x;
+const squareFeet = x => x * x;
 
 console.log(squareFeet(6));
 
-const sum = (x) => x + x;
+const sum = x => x + x;
 
 console.log(sum(3));
 
